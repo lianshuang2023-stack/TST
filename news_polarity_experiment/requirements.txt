@@ -1,0 +1,5 @@
+numpy
+torch
+transformers==5.16.1
+scikit-learn
+matplotlib

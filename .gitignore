@@ -1,0 +1,26 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.venv*/
+venv/
+.transformers_src/
+
+# Local datasets, checkpoints, predictions, and generated reports.
+news_polarity_experiment/artifacts/
+news_polarity_experiment/data/
+news_polarity_experiment/datasets/
+news_polarity_experiment/outputs/
+news_polarity_experiment/checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
